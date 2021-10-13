@@ -1,0 +1,62 @@
+header {
+  font-family: 'Roboto', sans-serif;
+  background-color: blue;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 3vw; }
+  header a {
+    color: #bbb8b8;
+    text-decoration: none; }
+  header a:hover {
+    color: white;
+    transition: opacity 0.2;
+    text-decoration: underline 2px 2px; }
+  header img {
+    max-width: 3vw; }
+
+main .colorAzul {
+  background-color: blue; }
+  main .colorAzul .Gabriel {
+    color: white;
+    padding-top: 5vw;
+    padding-bottom: 15vw;
+    font-family: 'Roboto', sans-serif; }
+    main .colorAzul .Gabriel h1 {
+      font-size: 4vw; }
+    main .colorAzul .Gabriel .contactButton {
+      margin-top: 4vw; }
+
+main .aboutMe {
+  padding-top: 4vw; }
+  main .aboutMe .btn-primary {
+    color: #fff;
+    background-color: #000095;
+    border-color: #000095; }
+  main .aboutMe h1 {
+    font-weight: bold; }
+  main .aboutMe p {
+    color: #747474; }
+  main .aboutMe .negrita {
+    font-weight: bold;
+    color: #747474; }
+
+.grid {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      border-style: solid;
+  }
+  
+  .grid div{
+      width: 20px;
+      height: 20px;
+  }
+  
+  .snake {
+      background-color: blue;
+  }
+  
+  .apple {
+      background-color: purple;
+  }

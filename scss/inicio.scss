@@ -1,0 +1,55 @@
+header{
+    font-family: 'Roboto', sans-serif;
+    background-color: blue;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 3vw;
+    a {
+        color: rgb(187, 184, 184);
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+        transition: opacity 0.2;
+        text-decoration:underline 2px 2px;
+    }
+    img{
+        max-width: 3vw;
+    }
+}
+
+main{
+    .colorAzul{
+        background-color: blue;
+        .Gabriel{
+            color: white;
+            padding-top: 5vw;
+            padding-bottom: 15vw;
+            font-family: 'Roboto', sans-serif;
+            h1{
+                font-size: 4vw;
+            }
+            .contactButton{
+                margin-top: 4vw;
+            }
+        }
+    }
+    .aboutMe{
+        padding-top: 4vw;
+        .btn-primary {
+            color: #fff;
+            background-color: #000095;
+            border-color: #000095;
+        }
+        h1{
+            font-weight: bold;
+        }
+        p{
+            color: rgb(116, 116, 116);
+        }
+        .negrita{
+            font-weight: bold;
+            color: rgb(116, 116, 116);
+        }
+    }
+}
